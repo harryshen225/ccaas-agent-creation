@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number">
+    <sys_number action="INSERT_OR_UPDATE">
+        <category display_value="" name="x_245684_innovate_ccaas_agent_activation">x_245684_innovate_ccaas_agent_activation</category>
+        <maximum_digits>7</maximum_digits>
+        <number>1000</number>
+        <prefix>Agent_Creation</prefix>
+        <sys_class_name>sys_number</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-02-24 05:25:01</sys_created_on>
+        <sys_id>45c58fb1dbb763006a5fd450cf9619ff</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Agent_Creation</sys_name>
+        <sys_package display_value="Innovate" source="x_245684_innovate">8fc436f5db7763006a5fd450cf961979</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Innovate">8fc436f5db7763006a5fd450cf961979</sys_scope>
+        <sys_update_name>sys_number_45c58fb1dbb763006a5fd450cf9619ff</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-02-24 05:25:01</sys_updated_on>
+    </sys_number>
+</record_update>
