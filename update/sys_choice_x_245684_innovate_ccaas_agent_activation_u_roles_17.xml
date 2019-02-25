@@ -5,6 +5,25 @@
             <element>u_roles_17</element>
             <hint/>
             <inactive>false</inactive>
+            <label>Agent</label>
+            <language>en</language>
+            <name>x_245684_innovate_ccaas_agent_activation</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-02-25 01:13:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3fc5dfcadb33a3006a5fd450cf96192a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-02-25 01:13:36</sys_updated_on>
+            <value>agent</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_roles_17</element>
+            <hint/>
+            <inactive>true</inactive>
             <label>Personal Banking</label>
             <language>en</language>
             <name>x_245684_innovate_ccaas_agent_activation</name>
@@ -14,16 +33,35 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>0bd8f04edbbb63006a5fd450cf9619f8</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-02-24 13:47:53</sys_updated_on>
+            <sys_updated_on>2019-02-25 01:13:36</sys_updated_on>
             <value>personal banking</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
             <element>u_roles_17</element>
             <hint/>
-            <inactive>false</inactive>
+            <inactive>true</inactive>
+            <label>Reporting User</label>
+            <language>en</language>
+            <name>x_245684_innovate_ccaas_agent_activation</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-02-25 01:13:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3bc5dfcadb33a3006a5fd450cf96192c</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-02-25 03:48:22</sys_updated_on>
+            <value>reporting user</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_roles_17</element>
+            <hint/>
+            <inactive>true</inactive>
             <label>Business Loan</label>
             <language>en</language>
             <name>x_245684_innovate_ccaas_agent_activation</name>
@@ -33,9 +71,9 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>5bd8f04edbbb63006a5fd450cf9619f9</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-02-24 13:47:53</sys_updated_on>
+            <sys_updated_on>2019-02-25 01:13:36</sys_updated_on>
             <value>business loan</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -43,6 +81,25 @@
             <element>u_roles_17</element>
             <hint/>
             <inactive>false</inactive>
+            <label>Supervisor</label>
+            <language>en</language>
+            <name>x_245684_innovate_ccaas_agent_activation</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-02-25 01:13:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bbc5dfcadb33a3006a5fd450cf96192b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-02-25 01:13:36</sys_updated_on>
+            <value>supervisor</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_roles_17</element>
+            <hint/>
+            <inactive>true</inactive>
             <label>Home Loan</label>
             <language>en</language>
             <name>x_245684_innovate_ccaas_agent_activation</name>
@@ -52,9 +109,9 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>9fd8344edbbb63006a5fd450cf961906</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-02-24 13:47:53</sys_updated_on>
+            <sys_updated_on>2019-02-25 01:13:36</sys_updated_on>
             <value>home loan</value>
         </sys_choice>
         <sys_choice_set action="INSERT_OR_UPDATE">

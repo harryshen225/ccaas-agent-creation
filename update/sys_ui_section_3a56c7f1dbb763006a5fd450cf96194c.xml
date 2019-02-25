@@ -4,13 +4,13 @@
             <element>u_firstname</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-02-24 23:53:45</sys_created_on>
-            <sys_id>42838fcedbff63006a5fd450cf9619f0</sys_id>
+            <sys_created_on>2019-02-25 01:13:36</sys_created_on>
+            <sys_id>b7c5dfcadb33a3006a5fd450cf961920</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_245684_innovate_ccaas_agent_activation" sys_domain="global" view="Default view">3a56c7f1dbb763006a5fd450cf96194c</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-02-24 23:53:45</sys_updated_on>
+            <sys_updated_on>2019-02-25 01:13:36</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,13 +18,13 @@
             <element>u_lastname</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-02-24 23:53:45</sys_created_on>
-            <sys_id>c6838fcedbff63006a5fd450cf9619f0</sys_id>
+            <sys_created_on>2019-02-25 01:13:36</sys_created_on>
+            <sys_id>3bc5dfcadb33a3006a5fd450cf961920</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_245684_innovate_ccaas_agent_activation" sys_domain="global" view="Default view">3a56c7f1dbb763006a5fd450cf96194c</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-02-24 23:53:45</sys_updated_on>
+            <sys_updated_on>2019-02-25 01:13:36</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -32,13 +32,13 @@
             <element>u_username_14</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-02-24 23:53:45</sys_created_on>
-            <sys_id>4a838fcedbff63006a5fd450cf9619f0</sys_id>
+            <sys_created_on>2019-02-25 01:13:36</sys_created_on>
+            <sys_id>bbc5dfcadb33a3006a5fd450cf961920</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_245684_innovate_ccaas_agent_activation" sys_domain="global" view="Default view">3a56c7f1dbb763006a5fd450cf96194c</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-02-24 23:53:45</sys_updated_on>
+            <sys_updated_on>2019-02-25 01:13:36</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -46,13 +46,13 @@
             <element>u_email_15</element>
             <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-02-24 23:53:45</sys_created_on>
-            <sys_id>ca838fcedbff63006a5fd450cf9619f0</sys_id>
+            <sys_created_on>2019-02-25 01:13:36</sys_created_on>
+            <sys_id>3fc5dfcadb33a3006a5fd450cf961920</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_245684_innovate_ccaas_agent_activation" sys_domain="global" view="Default view">3a56c7f1dbb763006a5fd450cf96194c</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-02-24 23:53:45</sys_updated_on>
+            <sys_updated_on>2019-02-25 01:13:36</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -60,111 +60,27 @@
             <element>u_phonenumber_1</element>
             <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-02-24 23:53:45</sys_created_on>
-            <sys_id>4e838fcedbff63006a5fd450cf9619f0</sys_id>
+            <sys_created_on>2019-02-25 01:13:36</sys_created_on>
+            <sys_id>bfc5dfcadb33a3006a5fd450cf961920</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_245684_innovate_ccaas_agent_activation" sys_domain="global" view="Default view">3a56c7f1dbb763006a5fd450cf96194c</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-02-24 23:53:45</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>activity.xml</element>
-            <position>5</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-02-24 23:53:45</sys_created_on>
-            <sys_id>ce838fcedbff63006a5fd450cf9619f0</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter display_value="Activities (filtered)">444ea5c6bf310100e628555b3f0739d6</sys_ui_formatter>
-            <sys_ui_section caption="NULL" display_value="" name="x_245684_innovate_ccaas_agent_activation" sys_domain="global" view="Default view">3a56c7f1dbb763006a5fd450cf96194c</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-02-24 23:53:45</sys_updated_on>
-            <sys_user/>
-            <type>formatter</type>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>.split</element>
-            <position>6</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-02-24 23:53:45</sys_created_on>
-            <sys_id>06838fcedbff63006a5fd450cf9619f1</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_245684_innovate_ccaas_agent_activation" sys_domain="global" view="Default view">3a56c7f1dbb763006a5fd450cf96194c</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-02-24 23:53:45</sys_updated_on>
-            <sys_user/>
-            <type>.split</type>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>u_roles_17</element>
-            <position>7</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-02-24 23:53:45</sys_created_on>
-            <sys_id>86838fcedbff63006a5fd450cf9619f1</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_245684_innovate_ccaas_agent_activation" sys_domain="global" view="Default view">3a56c7f1dbb763006a5fd450cf96194c</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-02-24 23:53:45</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>u_sg_18</element>
-            <position>8</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-02-24 23:53:45</sys_created_on>
-            <sys_id>0a838fcedbff63006a5fd450cf9619f1</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_245684_innovate_ccaas_agent_activation" sys_domain="global" view="Default view">3a56c7f1dbb763006a5fd450cf96194c</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-02-24 23:53:45</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>pq</element>
-            <position>9</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-02-24 23:53:45</sys_created_on>
-            <sys_id>8a838fcedbff63006a5fd450cf9619f1</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_245684_innovate_ccaas_agent_activation" sys_domain="global" view="Default view">3a56c7f1dbb763006a5fd450cf96194c</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-02-24 23:53:45</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>u_teams_19</element>
-            <position>10</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-02-24 23:53:45</sys_created_on>
-            <sys_id>0e838fcedbff63006a5fd450cf9619f1</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_245684_innovate_ccaas_agent_activation" sys_domain="global" view="Default view">3a56c7f1dbb763006a5fd450cf96194c</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-02-24 23:53:45</sys_updated_on>
+            <sys_updated_on>2019-02-25 01:13:36</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>current_status</element>
-            <position>11</position>
+            <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-02-24 23:53:45</sys_created_on>
-            <sys_id>8e838fcedbff63006a5fd450cf9619f1</sys_id>
+            <sys_created_on>2019-02-25 03:53:06</sys_created_on>
+            <sys_id>185a3b02dbb3a3006a5fd450cf9619bf</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_245684_innovate_ccaas_agent_activation" sys_domain="global" view="Default view">3a56c7f1dbb763006a5fd450cf96194c</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-02-24 23:53:45</sys_updated_on>
+            <sys_updated_on>2019-02-25 03:53:06</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

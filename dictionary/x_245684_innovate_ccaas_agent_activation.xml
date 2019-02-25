@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element audit="true" label="CCAAS Agent Activation" max_length="40" name="x_245684_innovate_ccaas_agent_activation" type="collection">
-        <element label="Current Status" max_length="40" name="current_status" type="string_full_utf8"/>
-        <element attributes="edge_encryption_enabled=true" label="Email" max_length="255" name="email" type="string_full_utf8"/>
+    <element attributes="live_feed=true" audit="true" label="CCAAS Agent Activation" max_length="40" name="x_245684_innovate_ccaas_agent_activation" type="collection">
+        <element choice="3" default="provisioning in progress" display="true" label="Current Status" max_length="40" name="current_status" read_only="true" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Provisioning in Progress" sequence="0" value="provisioning in progress"/>
+                <element inactive_on_update="false" label="Agent Provisioned" sequence="1" value="agent provisioned"/>
+                <element inactive_on_update="false" label="Notification Sent" sequence="2" value="notification sent"/>
+            </choice>
+        </element>
         <element attributes="edge_encryption_enabled=true" choice="3" default="personal banking" label="Priority Queue" mandatory="true" max_length="40" name="pq" type="string">
             <choice>
                 <element inactive_on_update="false" label="Personal Banking" sequence="0" value="personal banking"/>
@@ -9,21 +14,19 @@
                 <element inactive_on_update="false" label="Personal Loan" sequence="2" value="personal loan"/>
             </choice>
         </element>
-        <element attributes="edge_encryption_enabled=true" choice="1" label="Skill Groups" max_length="40" name="skillgroups" type="string">
-            <choice/>
-        </element>
-        <element attributes="edge_encryption_enabled=true" choice="1" label="Teams" max_length="40" name="teams" type="string">
-            <choice/>
-        </element>
+        <element label="Reporting User" max_length="40" name="u_boolean_2" type="boolean"/>
         <element attributes="edge_encryption_enabled=true" label="Email Address" max_length="40" name="u_email_15" read_only="true" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="First Name" max_length="40" name="u_firstname" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Last Name" max_length="40" name="u_lastname" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Telephone Number" mandatory="true" max_length="40" name="u_phonenumber_1" type="string"/>
-        <element attributes="edge_encryption_enabled=true" choice="3" default="personal banking" label="Roles" mandatory="true" max_length="40" name="u_roles_17" type="string">
+        <element attributes="edge_encryption_enabled=true" choice="3" default="agent" label="Roles" mandatory="true" max_length="40" name="u_roles_17" type="string">
             <choice>
-                <element inactive_on_update="false" label="Personal Banking" sequence="0" value="personal banking"/>
-                <element inactive_on_update="false" label="Business Loan" sequence="1" value="business loan"/>
-                <element inactive_on_update="false" label="Home Loan" sequence="2" value="home loan"/>
+                <element inactive_on_update="false" label="Agent" sequence="0" value="agent"/>
+                <element inactive="true" inactive_on_update="true" label="Personal Banking" sequence="0" value="personal banking"/>
+                <element inactive="true" inactive_on_update="true" label="Reporting User" sequence="0" value="reporting user"/>
+                <element inactive="true" inactive_on_update="true" label="Business Loan" sequence="1" value="business loan"/>
+                <element inactive_on_update="false" label="Supervisor" sequence="1" value="supervisor"/>
+                <element inactive="true" inactive_on_update="true" label="Home Loan" sequence="2" value="home loan"/>
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" choice="3" default="personal banking" label="Skill Group" mandatory="true" max_length="40" name="u_sg_18" type="string">

@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="skillgroups" label="Skill Groups" language="en" table="x_245684_innovate_ccaas_agent_activation">
+    <sys_documentation element="u_boolean_2" label="Reporting User" language="en" table="x_245684_innovate_ccaas_agent_activation">
         <sys_documentation action="INSERT_OR_UPDATE">
-            <element>skillgroups</element>
+            <element>u_boolean_2</element>
             <help/>
             <hint/>
-            <label>Skill Groups</label>
+            <label>Reporting User</label>
             <language>en</language>
             <name>x_245684_innovate_ccaas_agent_activation</name>
-            <plural>Skill Groups</plural>
+            <plural>Reporting Users</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-02-24 13:38:52</sys_created_on>
-            <sys_id>4fc67ccadbbb63006a5fd450cf9619da</sys_id>
+            <sys_created_on>2019-02-25 03:34:30</sys_created_on>
+            <sys_id>2b06fb8edb73a3006a5fd450cf9619f7</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_name>Skill Groups</sys_name>
+            <sys_name>Reporting User</sys_name>
             <sys_package display_value="Innovate" source="x_245684_innovate">8fc436f5db7763006a5fd450cf961979</sys_package>
             <sys_policy/>
             <sys_scope display_value="Innovate">8fc436f5db7763006a5fd450cf961979</sys_scope>
-            <sys_update_name>sys_documentation_x_245684_innovate_ccaas_agent_activation_skillgroups_en</sys_update_name>
+            <sys_update_name>sys_documentation_x_245684_innovate_ccaas_agent_activation_u_boolean_2_en</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-02-24 13:38:52</sys_updated_on>
+            <sys_updated_on>2019-02-25 03:34:30</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>
