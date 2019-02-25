@@ -2,9 +2,13 @@
     <element attributes="live_feed=true" audit="true" label="CCAAS Agent Activation" max_length="40" name="x_245684_innovate_ccaas_agent_activation" type="collection">
         <element choice="3" default="provisioning in progress" display="true" label="Current Status" max_length="40" name="current_status" read_only="true" type="choice">
             <choice>
-                <element inactive_on_update="false" label="Provisioning in Progress" sequence="0" value="provisioning in progress"/>
-                <element inactive_on_update="false" label="Agent Provisioned" sequence="1" value="agent provisioned"/>
-                <element inactive_on_update="false" label="Notification Sent" sequence="2" value="notification sent"/>
+                <element inactive="true" inactive_on_update="true" label="Agent Provisioned" sequence="0" value="agent provisioned"/>
+                <element inactive_on_update="false" label="New Agent" sequence="0" value="new agent"/>
+                <element inactive="true" inactive_on_update="true" label="Notification Sent" sequence="1" value="notification sent"/>
+                <element inactive_on_update="false" label="Provisioning in Progress" sequence="1" value="provisioning in progress"/>
+                <element inactive_on_update="false" label="Provision Completion" sequence="2" value="provision completion"/>
+                <element inactive_on_update="false" label="Sending Notification" sequence="3" value="Sending Notification"/>
+                <element inactive_on_update="false" label="Request Closed" sequence="4" value="request closed"/>
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" choice="3" default="personal banking" label="Priority Queue" mandatory="true" max_length="40" name="pq" type="string">
@@ -17,6 +21,7 @@
         <element label="Reporting User" max_length="40" name="u_boolean_2" type="boolean"/>
         <element attributes="edge_encryption_enabled=true" label="Email Address" max_length="40" name="u_email_15" read_only="true" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="First Name" max_length="40" name="u_firstname" type="string"/>
+        <element label="New HTML" max_length="65536" name="u_html_2" type="html"/>
         <element attributes="edge_encryption_enabled=true" label="Last Name" max_length="40" name="u_lastname" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Telephone Number" mandatory="true" max_length="40" name="u_phonenumber_1" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="3" default="agent" label="Roles" mandatory="true" max_length="40" name="u_roles_17" type="string">
