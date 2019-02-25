@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="roles" table="x_245684_innovate_ccaas_agent_activation">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="u_phonenumber_1" table="x_245684_innovate_ccaas_agent_activation">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
         <attributes>edge_encryption_enabled=true</attributes>
         <audit>false</audit>
         <calculation/>
-        <choice>1</choice>
+        <choice>0</choice>
         <choice_field/>
         <choice_table/>
-        <column_label>Roles</column_label>
+        <column_label>Telephone Number</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -22,13 +22,13 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>roles</element>
+        <element>u_phonenumber_1</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <function_definition/>
         <function_field>false</function_field>
         <internal_type display_value="String">string</internal_type>
-        <mandatory>false</mandatory>
+        <mandatory>true</mandatory>
         <max_length>40</max_length>
         <name>x_245684_innovate_ccaas_agent_activation</name>
         <next_element/>
@@ -47,16 +47,16 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2019-02-24 13:38:52</sys_created_on>
-        <sys_id>c7c67ccadbbb63006a5fd450cf9619d6</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>Roles</sys_name>
+        <sys_created_on>2019-02-24 23:53:44</sys_created_on>
+        <sys_id>4e838fcedbff63006a5fd450cf9619bc</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Telephone Number</sys_name>
         <sys_package display_value="Innovate" source="x_245684_innovate">8fc436f5db7763006a5fd450cf961979</sys_package>
         <sys_policy/>
         <sys_scope display_value="Innovate">8fc436f5db7763006a5fd450cf961979</sys_scope>
-        <sys_update_name>sys_dictionary_x_245684_innovate_ccaas_agent_activation_roles</sys_update_name>
+        <sys_update_name>sys_dictionary_x_245684_innovate_ccaas_agent_activation_u_phonenumber_1</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-02-24 13:38:52</sys_updated_on>
+        <sys_updated_on>2019-02-24 23:53:45</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

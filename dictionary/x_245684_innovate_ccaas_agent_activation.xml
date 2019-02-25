@@ -2,7 +2,6 @@
     <element audit="true" label="CCAAS Agent Activation" max_length="40" name="x_245684_innovate_ccaas_agent_activation" type="collection">
         <element label="Current Status" max_length="40" name="current_status" type="string_full_utf8"/>
         <element attributes="edge_encryption_enabled=true" label="Email" max_length="255" name="email" type="string_full_utf8"/>
-        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Telephone Number" mandatory="true" max_length="40" name="number" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="3" default="personal banking" label="Priority Queue" mandatory="true" max_length="40" name="pq" type="string">
             <choice>
                 <element inactive_on_update="false" label="Personal Banking" sequence="0" value="personal banking"/>
@@ -10,20 +9,16 @@
                 <element inactive_on_update="false" label="Personal Loan" sequence="2" value="personal loan"/>
             </choice>
         </element>
-        <element attributes="edge_encryption_enabled=true" choice="1" label="Roles" max_length="40" name="roles" type="string">
-            <choice/>
-        </element>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Skill Groups" max_length="40" name="skillgroups" type="string">
             <choice/>
         </element>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Teams" max_length="40" name="teams" type="string">
             <choice/>
         </element>
-        <element label="Telephone Number" max_length="40" name="telephonenumber" type="integer"/>
-        <element attributes="edge_encryption_enabled=true" label="Email Address" mandatory="true" max_length="40" name="u_email_15" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Email Address" max_length="40" name="u_email_15" read_only="true" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="First Name" max_length="40" name="u_firstname" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Last Name" max_length="40" name="u_lastname" type="string"/>
-        <element label="Telephone Number" mandatory="true" max_length="40" name="u_phone_16" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Telephone Number" mandatory="true" max_length="40" name="u_phonenumber_1" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="3" default="personal banking" label="Roles" mandatory="true" max_length="40" name="u_roles_17" type="string">
             <choice>
                 <element inactive_on_update="false" label="Personal Banking" sequence="0" value="personal banking"/>
@@ -38,7 +33,6 @@
                 <element inactive_on_update="false" label="Home Loan" sequence="2" value="home loan"/>
             </choice>
         </element>
-        <element attributes="edge_encryption_enabled=true" default="javascript:" label="Username" max_length="40" name="u_string_3" read_only="true" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="3" default="personal banking" label="Teams" mandatory="true" max_length="40" name="u_teams_19" type="string">
             <choice>
                 <element inactive_on_update="false" label="Personal Banking" sequence="0" value="personal banking"/>
@@ -46,6 +40,6 @@
                 <element inactive_on_update="false" label="Personal Loan" sequence="2" value="personal loan"/>
             </choice>
         </element>
-        <element attributes="edge_encryption_enabled=true" label="User Name" mandatory="true" max_length="40" name="u_username_14" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="User Name" max_length="40" name="u_username_14" read_only="true" type="string"/>
     </element>
 </database>
