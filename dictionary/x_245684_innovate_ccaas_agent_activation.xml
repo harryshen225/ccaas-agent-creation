@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element attributes="live_feed=true" audit="true" label="CCAAS Agent Activation" max_length="40" name="x_245684_innovate_ccaas_agent_activation" type="collection">
-        <element choice="3" default="provisioning in progress" display="true" label="Current Status" max_length="40" name="current_status" read_only="true" type="choice">
+        <element choice="3" default="new agent" display="true" label="Current Status" max_length="40" name="current_status" read_only="true" type="choice">
             <choice>
                 <element inactive="true" inactive_on_update="true" label="Agent Provisioned" sequence="0" value="agent provisioned"/>
                 <element inactive_on_update="false" label="New Agent" sequence="0" value="new agent"/>

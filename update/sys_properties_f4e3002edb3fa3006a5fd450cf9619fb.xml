@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties">
+    <sys_properties action="INSERT_OR_UPDATE">
+        <choices/>
+        <description>CCAAS Agent Activation activity formatter fields</description>
+        <ignore_cache>false</ignore_cache>
+        <is_private>false</is_private>
+        <name>glide.ui.x_245684_innovate_ccaas_agent_activation_activity.fields</name>
+        <read_roles/>
+        <suffix>x_245684_innovate</suffix>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-02-25 23:13:24</sys_created_on>
+        <sys_id>f4e3002edb3fa3006a5fd450cf9619fb</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>glide.ui.x_245684_innovate_ccaas_agent_activation_activity.fields</sys_name>
+        <sys_package display_value="Innovate" source="x_245684_innovate">8fc436f5db7763006a5fd450cf961979</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Innovate">8fc436f5db7763006a5fd450cf961979</sys_scope>
+        <sys_update_name>sys_properties_f4e3002edb3fa3006a5fd450cf9619fb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-02-25 23:24:32</sys_updated_on>
+        <type>string</type>
+        <value>sys_created_on,u_firstname,u_lastname,u_roles_17,current_status,sys_created_by,u_email_15,u_html_2,pq,u_boolean_2,u_sg_18,sys_tags,u_teams_19,u_phonenumber_1,sys_updated_on,sys_updated_by,sys_mod_count,u_username_14,*Email*,*Relations*,*Attachments*</value>
+        <write_roles/>
+    </sys_properties>
+    <sys_translated_text action="delete_multiple" query="documentkey=f4e3002edb3fa3006a5fd450cf9619fb"/>
+</record_update>
